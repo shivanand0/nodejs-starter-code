@@ -1,16 +1,19 @@
-# Nodejs server starter code with basic auth
 
-# folder structure
+# Nodejs server starter code with basic auth for quick start
+
+Folder Structure
+```bash
 config/ 
 controllers/ 
 ├─ api/ 
 models/ 
 routes/ 
-├─ api/
-├─ index.js
+├─ api/ 
+├─ index.js 
 searvice/ 
 ├─ validation/ 
-│  ├─ index.js
+│ ├─ index.js 
 validation/ 
 index.js 
 package.json
+```
