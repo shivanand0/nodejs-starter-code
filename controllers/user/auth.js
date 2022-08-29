@@ -12,6 +12,8 @@ const moduleExport = {
      * */
     async signin(req, res) {
         const { email, password } = req.body;
+        res.status(200).json({ message: "SUCCESS", res: req.body });
+        return;
 
         try {
             const userExists = await UserModel.findOne({ email });
