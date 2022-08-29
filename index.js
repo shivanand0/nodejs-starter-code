@@ -13,6 +13,6 @@ app.use(cors())
 
 app.use('/api', indexRoutes)
 
-mongoose.connect(CONNECTION_URL)
-    .then(() => app.listen(PORT, () => console.log(`Server started running on port ${PORT}`)))
-    .catch((error) => console.log(`${error} - did not connect`));
+// mongoose.connect(CONNECTION_URL)
+//     .then(() => app.listen(PORT, () => console.log(`Server started running on port ${PORT}`)))
+//     .catch((error) => console.log(`${error} - did not connect`));
